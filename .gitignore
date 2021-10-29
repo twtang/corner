@@ -1,0 +1,10 @@
+*lock*.csv
+*.html
+
+__pycache__
+.ipynb_checkpoints
+
+archive/*
+models/*
+data/*
+raw_data/*

@@ -6,5 +6,6 @@ __pycache__
 
 archive/*
 models/*
-data/*
+data/json
+data/data.csv
 raw_data/*

@@ -6,9 +6,14 @@ from torch.distributions import constraints
 from torch.distributions.distribution import Distribution
 from torch.distributions.utils import broadcast_all, probs_to_logits, lazy_property, logits_to_probs
 
-class BivariateNegativeBinomial(Distribution):
+    
+# Reference: [1] An alternative bivariate negative binomial model based on
+#                Sarmanov family (Lee, 2021) and
+#            [2] On the bivariate negative binomial regression model (Famoye, 2010)
+# Denote as BNBSL model.
+class BivariateNegativeBinomialSL(Distribution):
     r"""
-    Creates a Bivariate Negative Binomial distribution, i.e. distribution
+    Creates a Bivariate Negative Binomial Sarmanov-Lee distribution, i.e. distribution
     of the number of successful independent and identical Bernoulli trials
     before :attr:`total_count` failures are achieved. The probability
     of failure of each Bernoulli trial is :attr:`probs`.
@@ -21,37 +26,38 @@ class BivariateNegativeBinomial(Distribution):
         logits (Tensor): Event log-odds for probabilities of failure
     """
     arg_constraints = {'total_count': constraints.greater_than_eq(0),
-                       'probs': constraints.simplex,
+                       'probs': constraints.half_open_interval(0., 1.),
                        'logits': constraints.real_vector}
-#     support = constraints.nonnegative_integer
+    support = constraints.nonnegative_integer
 
-    def __init__(self, total_count, probs=None, logits=None, validate_args=None):
+    def __init__(self, total_count, omega, probs=None, logits=None, validate_args=None):
         if (probs is None) == (logits is None):
             raise ValueError("Either `probs` or `logits` must be specified, but not both.")
         if probs is not None:
 #             self.total_count, self.probs, = broadcast_all(total_count, probs)
-            self.total_count, self.probs, = total_count, probs
+            self.total_count, self.probs, self.omega = total_count, probs, omega
             self.total_count = self.total_count.type_as(self.probs)
         else:
 #             self.total_count, self.logits, = broadcast_all(total_count, logits)
-            self.total_count, self.logits, = total_count, logits
+            self.total_count, self.logits, self.omega = total_count, logits, omega
             self.total_count = self.total_count.type_as(self.logits)
-
-        self._param = self.probs[..., 1:] if probs is not None else self.logits[..., 1:]
+        
+        self._param = self.probs if probs is not None else self.logits
         batch_shape = self._param.size()
-        super(BivariateNegativeBinomial, self).__init__(batch_shape, validate_args=validate_args)
+        super(BivariateNegativeBinomialSL, self).__init__(batch_shape, validate_args=validate_args)
 
     def expand(self, batch_shape, _instance=None):
-        new = self._get_checked_instance(BivariateNegativeBinomial, _instance)
+        new = self._get_checked_instance(BivariateNegativeBinomialSL, _instance)
         batch_shape = torch.Size(batch_shape)
         new.total_count = self.total_count.expand(batch_shape)
+        new.omega = self.omega.expand(batch_shape)
         if 'probs' in self.__dict__:
             new.probs = self.probs.expand(batch_shape)
             new._param = new.probs
         if 'logits' in self.__dict__:
             new.logits = self.logits.expand(batch_shape)
             new._param = new.logits
-        super(BivariateNegativeBinomial, new).__init__(batch_shape, validate_args=False)
+        super(BivariateNegativeBinomialSL, new).__init__(batch_shape, validate_args=False)
         new._validate_args = self._validate_args
         return new
 
@@ -59,29 +65,31 @@ class BivariateNegativeBinomial(Distribution):
     def _new(self, *args, **kwargs):
         return self._param.new(*args, **kwargs)
 
-    @constraints.dependent_property(is_discrete=True, event_dim=1)
-    def support(self):
-        total_count = torch.ones_like(self.total_count) * 1e3
-        return constraints.multinomial(total_count)
+#     @constraints.dependent_property(is_discrete=True, event_dim=1)
+#     def support(self):
+#         total_count = torch.ones_like(self.total_count) * 1e3
+#         return constraints.multinomial(total_count)
     
     @property
     def mean(self):
-        return self.total_count * self.probs / self.probs[0]
+        return self.total_count * torch.exp(self.logits)
 
     @property
     def variance(self):
-        return self.mean * (self.probs[0] + self.probs) / self.probs[0]
+        return self.mean / torch.sigmoid(-self.logits)
 
     @lazy_property
     def logits(self):
         return probs_to_logits(self.probs)
 
-
     @lazy_property
     def probs(self):
         return logits_to_probs(self.logits)
 
-
+    @property
+    def alpha(self):
+        return 1. / self.total_count
+    
     @property
     def param_shape(self):
         return self._param.size()
@@ -102,46 +110,42 @@ class BivariateNegativeBinomial(Distribution):
     def log_prob(self, value):
         if self._validate_args:
             self._validate_sample(value)
+        
+#         Q = (((1. + self.alpha * self.mean) / (1. + self.alpha + self.alpha * self.mean)) ** (value + self.total_count) - 
+#              1. / (1. + self.alpha) ** self.total_count)
+#         log_copula = torch.log(1. + self.omega * Q.prod(-1))
+        c = ((1. - self.probs) / (1. - self.probs * math.exp(-1.))) ** self.total_count
+        log_copula = torch.log(1. + self.omega * (torch.exp(-value) - c).prod(-1))
+        
+        log_unnormalized_prob = (self.total_count * F.logsigmoid(-self.logits) +
+                                 value * F.logsigmoid(self.logits)).sum(-1)
+        
+        log_normalization = (-torch.lgamma(self.total_count + value) + torch.lgamma(1. + value) +
+                             torch.lgamma(self.total_count)).sum(-1)
 
-        log_unnormalized_prob = self.total_count * self.logits[..., 0] + (value * self.logits[..., 1:]).sum(-1)
+        return log_unnormalized_prob - log_normalization + log_copula
 
-        log_normalization = (-torch.lgamma(self.total_count + value.sum(-1)) + 
-                             torch.lgamma(1. + value[..., 0]) + 
-                             torch.lgamma(1. + value[..., 1]) + 
-                             torch.lgamma(self.total_count))
-
-        return log_unnormalized_prob - log_normalization
     
-    
-class BivariateNegativeBinomialNLLLoss(nn.Module):
+class BivariateNegativeBinomialSLNLLLoss(nn.Module):
     def __init__(self):
         super().__init__()
-        self.softmax_probs = nn.Softmax(dim=-1)
-        self.softplus_total_count = nn.Softplus()
         
     def forward(self, parameters, target):
-        probs = self.softmax_probs(parameters[:, 0:3])
-        alpha = self.softplus_total_count(parameters[:, 3])
-        total_count = 1 / alpha
+        alpha = F.softplus(parameters[:, 0:2])
+        mu = F.softplus(parameters[:, 2:4])
+        omega = torch.tanh(parameters[:, 4]) * 0.0
+        
+        total_count = 1. / alpha
+        logits = torch.log(alpha * mu)
         # total_count = self.softplus_total_count(parameters[:, 3])
         # target: number of successes before `total_count` number of failures
         # total_count: number of failures
         # probs: prob. of success
         # total_count > 0
-        # probs: [0, 1], sum(probs) = 1
-        distribution = BivariateNegativeBinomial(total_count=total_count, probs=probs)
+        distribution = BivariateNegativeBinomialSL(total_count=total_count, omega=omega, logits=logits)
         likelihood = distribution.log_prob(target)
         return -likelihood.mean()
     
-    
-# def tabular_learner_bnb(data:DataBunch, layers:Collection[int], emb_szs:Dict[str,int]=None, metrics=None,
-#         ps:Collection[float]=None, emb_drop:float=0., y_range:OptRange=None, use_bn:bool=True, **learn_kwargs):
-#     "Get a `Learner` using `data`, with `metrics`, including a `TabularModel` created using the remaining params."
-#     emb_szs = data.get_emb_szs(ifnone(emb_szs, {}))
-#     model = TabularModel(emb_szs, len(data.cont_names), out_sz=4, layers=layers, ps=ps, emb_drop=emb_drop,
-#                          y_range=y_range, use_bn=use_bn)
-#     return Learner(data, model, metrics=metrics, **learn_kwargs)
-
 
 ## Poisson NLL correction
 def _poisson_nll_loss(input, target, log_input=True, full=False, size_average=None, eps=1e-8,

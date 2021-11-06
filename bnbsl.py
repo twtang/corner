@@ -25,10 +25,13 @@ class BivariateNegativeBinomialSL(Distribution):
         probs (Tensor): Event probabilities of failure in the half open interval [0, 1)
         logits (Tensor): Event log-odds for probabilities of failure
     """
-    arg_constraints = {'total_count': constraints.greater_than_eq(0),
-                       'probs': constraints.half_open_interval(0., 1.),
+#     arg_constraints = {'total_count': constraints.greater_than_eq(0),
+#                        'probs': constraints.half_open_interval(0., 1.),
+#                        'logits': constraints.real_vector}
+    arg_constraints = {'total_count': constraints.independent(constraints.greater_than_eq(0), 1),
+                       'probs': constraints.independent(constraints.half_open_interval(0., 1.), 1),
                        'logits': constraints.real_vector}
-    support = constraints.nonnegative_integer
+    support = constraints.independent(constraints.nonnegative_integer, 1)
 
     def __init__(self, total_count, omega, probs=None, logits=None, validate_args=None):
         if (probs is None) == (logits is None):

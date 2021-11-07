@@ -1,8 +1,10 @@
 *lock*.csv
 *.html
+.DS_Store
 
 __pycache__
 .ipynb_checkpoints
+.vscode
 
 archive/*
 models/*

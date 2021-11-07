@@ -113,13 +113,17 @@ class BivariateNegativeBinomialSL(Distribution):
     def log_prob(self, value):
         if self._validate_args:
             self._validate_sample(value)
-        
-#         Q = (((1. + self.alpha * self.mean) / (1. + self.alpha + self.alpha * self.mean)) ** (value + self.total_count) - 
-#              1. / (1. + self.alpha) ** self.total_count)
-#         log_copula = torch.log(1. + self.omega * Q.prod(-1))
-        c = ((1. - self.probs) / (1. - self.probs * math.exp(-1.))) ** self.total_count
-        log_copula = torch.log(1. + self.omega * (torch.exp(-value) - c).prod(-1))
-        
+
+        # Method 1 (Lee, 2021):        
+        Q = (((1. + self.alpha * self.mean) / (1. + self.alpha + self.alpha * self.mean)) ** (value + self.total_count) - 
+             1. / (1. + self.alpha) ** self.total_count)
+        log_copula = torch.log(torch.clamp(1. + self.omega * Q.prod(-1), 1e-8))
+
+        # Method 2 (Famoye, 2010):
+        # d = math.exp(-1.)
+        # c = (1. + d * self.alpha * self.mean) ** (-self.total_count)
+        # log_copula = torch.log(torch.clamp(1. + self.omega * (torch.exp(-value) - c).prod(-1), 1e-8))
+
         log_unnormalized_prob = (self.total_count * F.logsigmoid(-self.logits) +
                                  value * F.logsigmoid(self.logits)).sum(-1)
         
@@ -136,10 +140,12 @@ class BivariateNegativeBinomialSLNLLLoss(nn.Module):
     def forward(self, parameters, target):
         alpha = F.softplus(parameters[:, 0:2])
         mu = F.softplus(parameters[:, 2:4])
-        omega = torch.tanh(parameters[:, 4]) * 0.0
-        
+        omega = parameters[:, 4]
+        # omega = torch.tanh(parameters[:, 4]) * 50.
+
         total_count = 1. / alpha
         logits = torch.log(alpha * mu)
+
         # total_count = self.softplus_total_count(parameters[:, 3])
         # target: number of successes before `total_count` number of failures
         # total_count: number of failures

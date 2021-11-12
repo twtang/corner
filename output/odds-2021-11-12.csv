@@ -1,0 +1,37 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+SAT34,2021-11-14,01:15:00,Spanish Division 2 [SF2],Eibar,Alcorcon,False,12.50,4.15,1.18,0.10,0.90,0.37,Low,
+SAT34,2021-11-14,01:15:00,Spanish Division 2 [SF2],Eibar,Alcorcon,False,10.50,2.45,1.48,0.21,0.79,0.34,Low,
+SAT34,2021-11-14,01:15:00,Spanish Division 2 [SF2],Eibar,Alcorcon,True,9.50,1.95,1.75,0.30,0.70,0.30,Low,$$
+MON18,2021-11-16,04:00:00,Spanish Division 2 [SF2],Malaga,Tenerife,False,9.50,2.35,1.52,0.26,0.74,0.24,Low,
+SUN11,2021-11-14,21:00:00,Spanish Division 2 [SF2],Amorebieta,Lugo,True,8.50,1.75,1.95,0.67,0.33,0.24,High,$$
+SAT26,2021-11-13,23:00:00,Spanish Division 2 [SF2],Valladolid,Fuenlabrada,True,8.50,1.90,1.80,0.63,0.37,0.22,High,$$
+SUN16,2021-11-14,23:00:00,Spanish Division 2 [SF2],Girona,Cartagena,False,9.50,2.50,1.46,0.25,0.75,0.22,Low,
+MON18,2021-11-16,04:00:00,Spanish Division 2 [SF2],Malaga,Tenerife,True,8.50,1.83,1.87,0.37,0.63,0.21,Low,$$
+SUN26,2021-11-15,01:15:00,Spanish Division 2 [SF2],Burgos,Ponferradina,False,11.50,4.15,1.18,0.12,0.88,0.20,Low,
+SUN16,2021-11-14,23:00:00,Spanish Division 2 [SF2],Girona,Cartagena,False,11.50,4.55,1.15,0.10,0.90,0.20,Low,
+SUN11,2021-11-14,21:00:00,Spanish Division 2 [SF2],Amorebieta,Lugo,False,9.50,2.20,1.59,0.56,0.44,0.20,High,
+SUN26,2021-11-15,01:15:00,Spanish Division 2 [SF2],Burgos,Ponferradina,False,9.50,2.35,1.52,0.27,0.73,0.20,Low,
+MON18,2021-11-16,04:00:00,Spanish Division 2 [SF2],Malaga,Tenerife,False,11.50,4.40,1.16,0.11,0.89,0.19,Low,
+SUN16,2021-11-14,23:00:00,Spanish Division 2 [SF2],Girona,Cartagena,True,8.50,1.95,1.75,0.35,0.65,0.18,Low,$
+SAT26,2021-11-13,23:00:00,Spanish Division 2 [SF2],Valladolid,Fuenlabrada,False,9.50,2.40,1.50,0.52,0.48,0.17,High,
+SUN26,2021-11-15,01:15:00,Spanish Division 2 [SF2],Burgos,Ponferradina,True,8.50,1.85,1.85,0.38,0.62,0.16,Low,$
+SAT13,2021-11-13,23:00:00,Eng League 1 [ED2],Ipswich,Oxford Utd,False,11.50,2.25,1.57,0.31,0.69,0.16,Low,
+SAT13,2021-11-13,23:00:00,Eng League 1 [ED2],Ipswich,Oxford Utd,True,10.50,1.82,1.88,0.41,0.59,0.13,Low,$
+SAT26,2021-11-13,23:00:00,Spanish Division 2 [SF2],Valladolid,Fuenlabrada,False,11.50,4.30,1.17,0.31,0.69,0.10,High,
+SUN11,2021-11-14,21:00:00,Spanish Division 2 [SF2],Amorebieta,Lugo,False,12.50,5.10,1.12,0.25,0.75,0.07,High,
+SAT13,2021-11-13,23:00:00,Eng League 1 [ED2],Ipswich,Oxford Utd,False,14.50,5.10,1.12,0.10,0.90,0.05,Low,
+FRI39,2021-11-13,04:00:00,Spanish Division 2 [SF2],Gijon,Real Sociedad B,True,8.50,1.75,1.95,0.58,0.42,0.01,High,
+FRI39,2021-11-13,04:00:00,Spanish Division 2 [SF2],Gijon,Real Sociedad B,False,9.50,2.20,1.59,0.46,0.54,0.01,High,
+SAT35,2021-11-14,01:15:00,Spanish Division 2 [SF2],Mirandes,Huesca,False,10.50,2.70,1.40,0.34,0.66,,,
+SAT39,2021-11-14,03:30:00,Spanish Division 2 [SF2],Las Palmas,Zaragoza,False,11.50,4.75,1.14,0.18,0.82,,,
+SUN17,2021-11-14,23:00:00,Spanish Division 2 [SF2],UD Ibiza,Almeria,False,9.50,2.70,1.40,0.33,0.67,,,
+SUN25,2021-11-15,01:15:00,Spanish Division 2 [SF2],Leganes,Oviedo,True,8.50,2.10,1.65,0.41,0.59,,,
+FRI39,2021-11-13,04:00:00,Spanish Division 2 [SF2],Gijon,Real Sociedad B,False,12.50,5.10,1.12,0.18,0.82,,,
+SAT35,2021-11-14,01:15:00,Spanish Division 2 [SF2],Mirandes,Huesca,False,12.50,4.90,1.13,0.17,0.83,,,
+SAT39,2021-11-14,03:30:00,Spanish Division 2 [SF2],Las Palmas,Zaragoza,False,9.50,2.60,1.43,0.37,0.63,,,
+SUN17,2021-11-14,23:00:00,Spanish Division 2 [SF2],UD Ibiza,Almeria,True,8.50,2.10,1.65,0.45,0.55,,,
+SUN25,2021-11-15,01:15:00,Spanish Division 2 [SF2],Leganes,Oviedo,False,9.50,2.70,1.40,0.29,0.71,,,
+SAT35,2021-11-14,01:15:00,Spanish Division 2 [SF2],Mirandes,Huesca,True,9.50,2.15,1.62,0.46,0.54,,,
+SAT39,2021-11-14,03:30:00,Spanish Division 2 [SF2],Las Palmas,Zaragoza,True,8.50,2.02,1.70,0.49,0.51,,,
+SUN17,2021-11-14,23:00:00,Spanish Division 2 [SF2],UD Ibiza,Almeria,False,11.50,5.10,1.12,0.16,0.84,,,
+SUN25,2021-11-15,01:15:00,Spanish Division 2 [SF2],Leganes,Oviedo,False,11.50,5.10,1.12,0.13,0.87,,,

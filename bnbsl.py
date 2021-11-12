@@ -25,9 +25,6 @@ class BivariateNegativeBinomialSL(Distribution):
         probs (Tensor): Event probabilities of failure in the half open interval [0, 1)
         logits (Tensor): Event log-odds for probabilities of failure
     """
-#     arg_constraints = {'total_count': constraints.greater_than_eq(0),
-#                        'probs': constraints.half_open_interval(0., 1.),
-#                        'logits': constraints.real_vector}
     arg_constraints = {'total_count': constraints.independent(constraints.greater_than_eq(0), 1),
                        'probs': constraints.independent(constraints.half_open_interval(0., 1.), 1),
                        'logits': constraints.real_vector}
@@ -68,11 +65,6 @@ class BivariateNegativeBinomialSL(Distribution):
     def _new(self, *args, **kwargs):
         return self._param.new(*args, **kwargs)
 
-#     @constraints.dependent_property(is_discrete=True, event_dim=1)
-#     def support(self):
-#         total_count = torch.ones_like(self.total_count) * 1e3
-#         return constraints.multinomial(total_count)
-    
     @property
     def mean(self):
         return self.total_count * torch.exp(self.logits)
@@ -146,7 +138,6 @@ class BivariateNegativeBinomialSLNLLLoss(nn.Module):
         total_count = 1. / alpha
         logits = torch.log(alpha * mu)
 
-        # total_count = self.softplus_total_count(parameters[:, 3])
         # target: number of successes before `total_count` number of failures
         # total_count: number of failures
         # probs: prob. of success

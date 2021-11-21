@@ -130,6 +130,12 @@ class BivariateNegativeBinomialSLNLLLoss(nn.Module):
         super().__init__()
         
     def forward(self, parameters, target):
+        # Time-weighted
+        if target.size(-1) == 3:
+            value, weight = target[:, :2], target[:, 2]
+        else:
+            value, weight = target, None
+            
         alpha = F.softplus(parameters[:, 0:2])
         mu = F.softplus(parameters[:, 2:4])
         omega = parameters[:, 4]
@@ -143,7 +149,8 @@ class BivariateNegativeBinomialSLNLLLoss(nn.Module):
         # probs: prob. of success
         # total_count > 0
         distribution = BivariateNegativeBinomialSL(total_count=total_count, omega=omega, logits=logits)
-        likelihood = distribution.log_prob(target)
+        likelihood = distribution.log_prob(value)
+        if weight is not None: likelihood *= weight
         return -likelihood.mean()
     
 

@@ -161,9 +161,9 @@ class Match():
         self.odds = {}
         
         self.league = League(
-                m['league']['leagueID'], 
-                m['league']['leagueShortName'], 
-                m['league']['leagueNameEN']
+                m['tournament']['tournamentID'], 
+                m['tournament']['tournamentShortName'], 
+                m['tournament']['tournamentNameEN']
             )
         self.home_team = Team(
                 m['homeTeam']['teamID'],
@@ -174,13 +174,13 @@ class Match():
                 m['awayTeam']['teamNameEN']
             )
 
-        self.events = m['liveEvent']['liveevent']
+        self.events = m['liveEvent']['hasLiveInfo']
         self.id = m['matchID']
         self.num = m['matchNum']
         # self.date = m['matchDate'].split('+')[0]
         # 2021-09-13T00:00:00+08:00
         self.date = m['matchTime'].split('T')[0]
-        self.time = m['matchTime'].split('T')[1].split('+')[0]
+        self.time = m['matchTime'].split('T')[1].split('.')[0]
         self.short_id = m['matchIDinofficial']
 
         odds_handlers = {

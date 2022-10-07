@@ -1,0 +1,60 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+SATFB3435,2022-10-08,22:00:00,Eng Premier [EPL],Chelsea,Wolves,True,10.50,1.78,1.92,0.37,0.63,0.23,Low,$$
+SUNFB3434,2022-10-09,21:00:00,Eng Premier [EPL],Crystal Palace,Leeds,True,9.50,1.95,1.75,0.62,0.38,0.21,High,$$
+SATFB3433,2022-10-08,22:00:00,Eng Premier [EPL],Newcastle,Brentford,True,10.50,1.78,1.92,0.39,0.61,0.18,Low,$
+SATFB3488,2022-10-08,22:15:00,Spanish Division 1 [SFL],Atletico Madrid,Girona,True,9.50,2.13,1.63,0.32,0.68,0.18,Low,$
+SATFB3477,2022-10-08,21:30:00,German Division 1 [GSL],Leverkusen,Schalke 04,True,10.50,2.05,1.68,0.34,0.66,0.17,Low,$
+MONFB3571,2022-10-10,02:45:00,Italian Division 1 [ISA],Roma,Lecce,True,10.50,2.12,1.64,0.55,0.45,0.15,High,$
+SUNFB3466,2022-10-09,21:00:00,Italian Division 1 [ISA],Monza,Spezia,True,9.50,1.82,1.88,0.40,0.60,0.14,Low,$
+SATFB3436,2022-10-08,22:00:00,Eng Premier [EPL],Manchester City,Southampton,True,10.50,1.85,1.85,0.40,0.60,0.14,Low,$
+SUNFB3473,2022-10-09,19:30:00,German Division 2 [GD2],Heidenheim,Hannover,True,10.50,2.07,1.67,0.55,0.45,0.12,High,$
+SATFB3421,2022-10-08,03:00:00,Spanish Division 1 [SFL],Osasuna,Valencia,True,9.50,1.98,1.73,0.37,0.63,0.12,Low,$
+MONFB3469,2022-10-10,00:00:00,Italian Division 1 [ISA],Cremonese,Napoli,True,9.50,1.85,1.85,0.59,0.41,0.12,High,$
+TUEFB3432,2022-10-11,03:00:00,Eng Premier [EPL],Nottingham Forest,Aston Villa,True,10.50,2.00,1.72,0.54,0.46,0.09,High,
+SATFB3465,2022-10-08,21:00:00,Italian Division 1 [ISA],Sassuolo,Inter Milan,True,10.50,2.15,1.62,0.50,0.50,0.07,High,
+SUNFB3602,2022-10-09,23:30:00,German Division 1 [GSL],Hertha Berlin,Freiburg,True,9.50,1.90,1.80,0.56,0.44,0.07,High,
+SUNFB3526,2022-10-09,19:00:00,Eng Championship [ED1],Huddersfield,Hull City,True,9.50,1.86,1.84,0.43,0.57,0.06,Low,
+SATFB3438,2022-10-08,22:00:00,Eng Premier [EPL],Bournemouth,Leicester,True,10.50,2.10,1.65,0.51,0.49,0.06,High,
+SUNFB3462,2022-10-09,02:45:00,Italian Division 1 [ISA],Bologna,Sampdoria,True,9.50,1.90,1.80,0.55,0.45,0.06,High,
+SATFB3515,2022-10-08,19:00:00,German Division 2 [GD2],Rostock,Paderborn,True,9.50,1.93,1.77,0.54,0.46,0.05,High,
+SUNFB3464,2022-10-09,21:00:00,Italian Division 1 [ISA],Udinese,Atalanta,True,9.50,1.75,1.95,0.46,0.54,0.05,Low,
+SUNFB3486,2022-10-09,03:00:00,French Division 1 [FFL],Reims,Paris Saint Germain,True,9.50,1.86,1.84,0.44,0.56,0.05,Low,
+SUNFB3572,2022-10-09,21:30:00,German Division 1 [GSL],Monchengladbach,Cologne,True,10.50,1.98,1.73,0.40,0.60,0.05,Low,
+SUNFB3467,2022-10-09,21:00:00,Italian Division 1 [ISA],Salernitana,Verona,True,10.50,1.98,1.73,0.40,0.60,0.05,Low,
+SATFB3489,2022-10-08,20:00:00,Spanish Division 1 [SFL],Almeria,Vallecano,True,9.50,1.91,1.79,0.42,0.58,0.05,Low,
+SUNFB3468,2022-10-09,18:30:00,Italian Division 1 [ISA],AC Torino,Empoli,True,9.50,1.77,1.93,0.58,0.42,0.04,High,
+SUNFB3482,2022-10-09,21:00:00,French Division 1 [FFL],Angers SCO,Strasbourg,True,9.50,1.88,1.82,0.43,0.57,0.04,Low,
+SUNFB3517,2022-10-09,23:30:00,Eng Premier [EPL],Arsenal,Liverpool,True,10.50,2.07,1.67,0.39,0.61,0.04,Low,
+TUEFB3570,2022-10-11,02:45:00,Italian Division 1 [ISA],Fiorentina,Lazio,True,9.50,1.94,1.76,0.42,0.58,0.03,Low,
+SUNFB3494,2022-10-09,00:30:00,Spanish Division 1 [SFL],Sevilla,Bilbao,True,9.50,1.95,1.75,0.42,0.58,0.02,Low,
+SUNFB3520,2022-10-09,20:00:00,Spanish Division 1 [SFL],Valladolid,Betis,True,10.50,2.22,1.58,0.46,0.54,0.02,High,
+SATFB3478,2022-10-08,21:30:00,German Division 1 [GSL],Augsburg,Wolfsburg,True,9.50,1.85,1.85,0.45,0.55,0.02,Low,
+SATFB3410,2022-10-08,03:00:00,French Division 1 [FFL],Lyon,Toulouse,True,9.50,1.79,1.91,0.56,0.44,0.01,High,
+SATFB3470,2022-10-08,19:00:00,German Division 2 [GD2],Braunschweig,St. Pauli,True,9.50,1.72,2.00,0.50,0.50,0.01,Low,
+SUNFB3575,2022-10-09,19:00:00,French Division 1 [FFL],Montpellier,Monaco,True,9.50,1.77,1.93,0.48,0.52,0.01,Low,
+SUNFB3463,2022-10-09,00:00:00,Italian Division 1 [ISA],AC Milan,Juventus,True,9.50,1.90,1.80,0.53,0.47,0.00,High,
+TUEFB3492,2022-10-11,03:00:00,Spanish Division 1 [SFL],CF Elche,Mallorca,True,9.50,2.20,1.59,0.45,0.55,0.00,High,
+SATFB3407,2022-10-08,00:30:00,German Division 2 [GD2],Bielefeld,Karlsruher,True,9.50,1.73,1.98,0.51,0.49,,,
+SATFB3406,2022-10-08,00:30:00,German Division 2 [GD2],Jahn Regensburg,Greuther Furth,True,9.50,1.77,1.93,0.55,0.45,,,
+SATFB3475,2022-10-08,19:00:00,German Division 2 [GD2],Darmstadt,Dusseldorf,True,9.50,1.79,1.91,0.51,0.49,,,
+SUNFB3471,2022-10-09,02:30:00,German Division 2 [GD2],Hamburg,Kaiserslautern,True,10.50,1.88,1.82,0.47,0.53,,,
+SUNFB3472,2022-10-09,19:30:00,German Division 2 [GD2],Nurnberg,Holstein Kiel,True,10.50,1.94,1.76,0.50,0.50,,,
+SUNFB3474,2022-10-09,19:30:00,German Division 2 [GD2],Sandhausen,Magdeburg,True,9.50,1.70,2.02,0.56,0.44,,,
+SATFB3408,2022-10-08,02:30:00,German Division 1 [GSL],Hoffenheim,Werder Bremen,True,9.50,1.83,1.87,0.51,0.49,,,
+SATFB3479,2022-10-08,21:30:00,German Division 1 [GSL],Mainz,RB Leipzig,True,9.50,2.00,1.72,0.49,0.51,,,
+SATFB3476,2022-10-08,21:30:00,German Division 1 [GSL],Bochum,Frankfurt,True,10.50,2.08,1.66,0.43,0.57,,,
+SUNFB3480,2022-10-09,00:30:00,German Division 1 [GSL],Dortmund,Bayern Munich,True,9.50,1.77,1.93,0.52,0.48,,,
+MONFB3601,2022-10-10,01:30:00,German Division 1 [GSL],Stuttgart,Union Berlin,True,9.50,2.08,1.66,0.42,0.58,,,
+SUNFB3491,2022-10-09,03:00:00,Spanish Division 1 [SFL],Getafe,Real Madrid,True,9.50,2.04,1.69,0.42,0.58,,,
+SUNFB3493,2022-10-09,22:15:00,Spanish Division 1 [SFL],Cadiz,Espanyol,True,9.50,2.10,1.65,0.47,0.53,,,
+MONFB3519,2022-10-10,00:30:00,Spanish Division 1 [SFL],Real Sociedad,Villarreal,True,9.50,1.90,1.80,0.49,0.51,,,
+MONFB3490,2022-10-10,03:00:00,Spanish Division 1 [SFL],Barcelona,Celta Vigo,True,9.50,2.08,1.66,0.41,0.59,,,
+SATFB3484,2022-10-08,23:00:00,French Division 1 [FFL],Marseille,AC Ajaccio,True,9.50,1.95,1.75,0.48,0.52,,,
+SUNFB3481,2022-10-09,21:00:00,French Division 1 [FFL],Brest,Lorient,True,9.50,1.93,1.77,0.47,0.53,,,
+SUNFB3483,2022-10-09,21:00:00,French Division 1 [FFL],Clermont,Auxerre,True,9.50,2.02,1.70,0.45,0.55,,,
+SUNFB3573,2022-10-09,21:00:00,French Division 1 [FFL],Nice,Troyes,True,9.50,1.86,1.84,0.48,0.52,,,
+SUNFB3574,2022-10-09,23:05:00,French Division 1 [FFL],Rennes,Nantes,True,9.50,1.81,1.89,0.49,0.51,,,
+MONFB3485,2022-10-10,02:45:00,French Division 1 [FFL],Lille,Lens,True,9.50,1.90,1.80,0.51,0.49,,,
+SUNFB3437,2022-10-09,00:30:00,Eng Premier [EPL],Brighton,Tottenham,True,10.50,2.20,1.59,0.37,0.63,,,
+SUNFB3518,2022-10-09,21:00:00,Eng Premier [EPL],West Ham,Fulham,True,10.50,2.25,1.57,0.40,0.60,,,
+MONFB3516,2022-10-10,02:00:00,Eng Premier [EPL],Everton,Manchester Utd,True,10.50,1.93,1.77,0.46,0.54,,,

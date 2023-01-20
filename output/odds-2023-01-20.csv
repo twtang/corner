@@ -1,0 +1,42 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+MONFB6528,2023-01-23,01:30:00,Spanish Division 1 [SFL],Barcelona,Getafe,True,9.50,2.01,1.71,0.28,0.72,0.32,Low,$$$
+SUNFB6512,2023-01-22,22:30:00,German Division 1 [GSL],Dortmund,Augsburg,True,10.50,1.98,1.73,0.29,0.71,0.31,Low,$$$
+SUNFB6510,2023-01-22,19:30:00,Italian Division 1 [ISA],Sampdoria,Udinese,True,9.50,2.04,1.69,0.61,0.39,0.23,High,$$
+SATFB6470,2023-01-21,23:00:00,Eng Premier [EPL],Southampton,Aston Villa,True,9.50,1.82,1.88,0.65,0.35,0.22,High,$$
+TUEFB6525,2023-01-24,04:00:00,Spanish Division 1 [SFL],Valencia,Almeria,True,10.50,2.08,1.66,0.31,0.69,0.21,Low,$$
+SUNFB6567,2023-01-22,22:00:00,Italian Division 1 [ISA],Monza,Sassuolo,True,9.50,2.05,1.68,0.58,0.42,0.18,High,$
+SATFB6529,2023-01-21,23:15:00,Spanish Division 1 [SFL],Espanyol,Betis,True,9.50,1.95,1.75,0.60,0.40,0.17,High,$
+SATFB6492,2023-01-21,22:30:00,German Division 1 [GSL],Stuttgart,Mainz,True,9.50,2.02,1.70,0.58,0.42,0.17,High,$
+SATFB6496,2023-01-21,22:30:00,German Division 1 [GSL],Frankfurt,Schalke 04,True,10.50,2.01,1.71,0.55,0.45,0.10,High,$
+SUNFB6522,2023-01-22,21:00:00,Spanish Division 1 [SFL],Villarreal,Girona,True,8.50,1.67,2.07,0.46,0.54,0.10,Low,$
+SATFB6475,2023-01-21,20:30:00,Eng Premier [EPL],Liverpool,Chelsea,True,10.50,2.05,1.68,0.37,0.63,0.10,Low,
+SATFB6493,2023-01-21,22:30:00,German Division 1 [GSL],Bochum,Hertha Berlin,True,9.50,1.88,1.82,0.41,0.59,0.09,Low,
+SATFB6477,2023-01-21,23:00:00,Eng Premier [EPL],Bournemouth,Nottingham Forest,True,10.50,2.17,1.61,0.51,0.49,0.08,High,
+SUNFB6511,2023-01-22,01:00:00,Italian Division 1 [ISA],Salernitana,Napoli,True,9.50,2.02,1.70,0.53,0.47,0.08,High,
+MONFB6513,2023-01-23,00:30:00,German Division 1 [GSL],Monchengladbach,Leverkusen,True,9.50,1.90,1.80,0.42,0.58,0.05,Low,
+SATFB6462,2023-01-21,04:00:00,Spanish Division 1 [SFL],Mallorca,Celta Vigo,True,8.50,1.80,1.90,0.45,0.55,0.04,Low,
+SATFB6464,2023-01-21,01:30:00,French Division 2 [FF2],Sochaux,Caen,True,8.50,1.76,1.94,0.59,0.41,0.04,High,
+MONFB6566,2023-01-23,01:00:00,Italian Division 1 [ISA],Spezia,Roma,True,9.50,2.04,1.69,0.40,0.60,0.02,Low,
+TUEFB6564,2023-01-24,01:30:00,Italian Division 1 [ISA],Bologna,Cremonese,True,9.50,2.05,1.68,0.50,0.50,0.02,High,
+SATFB6450,2023-01-21,03:30:00,German Division 1 [GSL],RB Leipzig,Bayern Munich,True,9.50,1.95,1.75,0.47,0.53,,,
+SATFB6495,2023-01-21,22:30:00,German Division 1 [GSL],Union Berlin,Hoffenheim,True,9.50,2.10,1.65,0.40,0.60,,,
+SATFB6494,2023-01-21,22:30:00,German Division 1 [GSL],Wolfsburg,Freiburg,True,9.50,1.75,1.95,0.54,0.46,,,
+SUNFB6497,2023-01-22,01:30:00,German Division 1 [GSL],Cologne,Werder Bremen,True,9.50,1.75,1.95,0.56,0.44,,,
+SATFB6524,2023-01-21,21:00:00,Spanish Division 1 [SFL],Vallecano,Real Sociedad,True,9.50,1.90,1.80,0.52,0.48,,,
+SUNFB6523,2023-01-22,01:30:00,Spanish Division 1 [SFL],Atletico Madrid,Valladolid,True,9.50,1.70,2.02,0.54,0.46,,,
+SUNFB6521,2023-01-22,04:00:00,Spanish Division 1 [SFL],Sevilla,Cadiz,True,8.50,1.67,2.07,0.58,0.42,,,
+SUNFB6520,2023-01-22,23:15:00,Spanish Division 1 [SFL],CF Elche,Osasuna,True,8.50,1.67,2.07,0.54,0.46,,,
+MONFB6526,2023-01-23,04:00:00,Spanish Division 1 [SFL],Bilbao,Real Madrid,True,9.50,1.90,1.80,0.50,0.50,,,
+SATFB6471,2023-01-21,23:00:00,Eng Premier [EPL],Leicester,Brighton,True,9.50,1.77,1.93,0.55,0.45,,,
+SATFB6474,2023-01-21,23:00:00,Eng Premier [EPL],West Ham,Everton,True,10.50,2.17,1.61,0.40,0.60,,,
+SUNFB6473,2023-01-22,01:30:00,Eng Premier [EPL],Crystal Palace,Newcastle,True,10.50,2.08,1.66,0.48,0.52,,,
+SUNFB6540,2023-01-22,22:00:00,Eng Premier [EPL],Manchester City,Wolves,True,10.50,2.10,1.65,0.46,0.54,,,
+SUNFB6472,2023-01-22,22:00:00,Eng Premier [EPL],Leeds,Brentford,True,10.50,1.98,1.73,0.45,0.55,,,
+MONFB6476,2023-01-23,00:30:00,Eng Premier [EPL],Arsenal,Manchester Utd,True,9.50,1.75,1.95,0.50,0.50,,,
+TUEFB6541,2023-01-24,04:00:00,Eng Premier [EPL],Fulham,Tottenham,True,10.50,2.00,1.72,0.44,0.56,,,
+SATFB6600,2023-01-21,20:30:00,Eng Championship [ED1],Coventry,Norwich,True,10.50,1.98,1.73,0.46,0.54,,,
+SUNFB6550,2023-01-22,20:00:00,Eng Championship [ED1],Sunderland,Middlesbrough,True,9.50,1.90,1.80,0.50,0.50,,,
+SATFB6507,2023-01-21,22:00:00,Italian Division 1 [ISA],Verona,Lecce,True,9.50,2.00,1.72,0.46,0.54,,,
+SUNFB6509,2023-01-22,03:45:00,Italian Division 1 [ISA],Fiorentina,AC Torino,True,9.50,2.08,1.66,0.43,0.57,,,
+MONFB6565,2023-01-23,03:45:00,Italian Division 1 [ISA],Juventus,Atalanta,True,9.50,2.00,1.72,0.49,0.51,,,
+TUEFB6508,2023-01-24,03:45:00,Italian Division 1 [ISA],Inter Milan,Empoli,True,9.50,1.75,1.95,0.52,0.48,,,

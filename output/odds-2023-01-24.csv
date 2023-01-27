@@ -1,0 +1,11 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+WEDFB6623,2023-01-25,03:30:00,German Division 1 [GSL],Bayern Munich,Cologne,True,10.50,1.90,1.80,0.41,0.59,0.08,Low,
+WEDFB6642,2023-01-25,03:45:00,Italian Division 1 [ISA],Lazio,AC Milan,True,9.50,2.05,1.68,0.51,0.49,0.05,High,
+WEDFB6622,2023-01-25,01:30:00,German Division 1 [GSL],Schalke 04,RB Leipzig,True,9.50,1.86,1.84,0.44,0.56,0.04,Low,
+THUFB6628,2023-01-26,03:30:00,German Division 1 [GSL],Werder Bremen,Union Berlin,True,8.50,1.73,1.98,0.48,0.52,0.04,Low,
+WEDFB6626,2023-01-25,03:30:00,German Division 1 [GSL],Hertha Berlin,Wolfsburg,True,9.50,1.77,1.93,0.58,0.42,0.03,High,
+THUFB6645,2023-01-26,03:30:00,German Division 1 [GSL],Freiburg,Frankfurt,True,9.50,1.93,1.77,0.53,0.47,0.02,High,
+WEDFB6625,2023-01-25,03:30:00,German Division 1 [GSL],Hoffenheim,Stuttgart,True,9.50,1.91,1.79,0.48,0.52,,,
+THUFB6624,2023-01-26,01:30:00,German Division 1 [GSL],Mainz,Dortmund,True,9.50,1.93,1.77,0.51,0.49,,,
+THUFB6627,2023-01-26,03:30:00,German Division 1 [GSL],Leverkusen,Bochum,True,9.50,2.10,1.65,0.41,0.59,,,
+THUFB6629,2023-01-26,03:30:00,German Division 1 [GSL],Augsburg,Monchengladbach,True,9.50,1.83,1.87,0.50,0.50,,,

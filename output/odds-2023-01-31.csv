@@ -1,0 +1,13 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+THUFB6888,2023-02-02,02:00:00,French Division 1 [FFL],Reims,Lorient,True,10.50,2.35,1.52,0.28,0.72,0.17,Low,$
+THUFB6887,2023-02-02,02:00:00,French Division 1 [FFL],Angers SCO,AC Ajaccio,True,8.50,1.67,2.07,0.48,0.52,0.06,Low,
+THUFB6890,2023-02-02,04:00:00,French Division 1 [FFL],Lyon,Brest,True,10.50,2.25,1.57,0.47,0.53,0.05,High,
+THUFB6885,2023-02-02,02:00:00,French Division 1 [FFL],Toulouse,Troyes,True,10.50,2.20,1.59,0.36,0.64,0.03,Low,
+THUFB6891,2023-02-02,04:00:00,French Division 1 [FFL],Rennes,Strasbourg,True,8.50,1.71,2.01,0.59,0.41,0.01,High,
+THUFB6889,2023-02-02,02:00:00,French Division 1 [FFL],Nantes,Marseille,True,10.50,2.35,1.52,0.39,0.61,,,
+THUFB6886,2023-02-02,02:00:00,French Division 1 [FFL],Lille,Clermont,True,8.50,1.69,2.04,0.57,0.43,,,
+THUFB6893,2023-02-02,04:00:00,French Division 1 [FFL],Montpellier,Paris Saint Germain,True,8.50,1.58,2.22,0.59,0.41,,,
+THUFB6905,2023-02-02,04:00:00,French Division 1 [FFL],Lens,Nice,True,8.50,1.61,2.17,0.59,0.41,,,
+THUFB6892,2023-02-02,04:00:00,French Division 1 [FFL],Monaco,Auxerre,True,8.50,1.62,2.15,0.55,0.45,,,
+THUFB6881,2023-02-02,04:00:00,Spanish Division 1 [SFL],Betis,Barcelona,True,9.50,1.88,1.82,0.48,0.52,,,
+FRIFB6910,2023-02-03,04:00:00,Spanish Division 1 [SFL],Real Madrid,Valencia,True,9.50,1.77,1.93,0.53,0.47,,,

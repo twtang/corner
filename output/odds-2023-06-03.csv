@@ -1,0 +1,31 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+MONFB2229,2023-06-05,03:00:00,Italian Division 1 [ISA],Lecce,Bologna,True,9.50,2.00,1.72,0.66,0.34,0.33,High,$$$
+SUNFB2178,2023-06-04,03:00:00,French Division 1 [FFL],Auxerre,Lens,True,8.50,1.64,2.12,0.70,0.30,0.24,High,$$
+MONFB2212,2023-06-05,03:00:00,Spanish Division 1 [SFL],Valladolid,Getafe,True,9.50,1.97,1.74,0.33,0.67,0.22,Low,$$
+SUNFB2227,2023-06-04,00:30:00,Italian Division 1 [ISA],AC Torino,Inter Milan,True,9.50,2.08,1.66,0.59,0.41,0.21,High,$$
+MONFB2228,2023-06-05,03:00:00,Italian Division 1 [ISA],AC Milan,Verona,True,9.50,1.86,1.84,0.63,0.37,0.19,High,$
+MONFB2218,2023-06-05,00:30:00,Spanish Division 1 [SFL],Mallorca,Vallecano,True,9.50,1.95,1.75,0.38,0.62,0.11,Low,$
+MONFB2215,2023-06-05,03:00:00,Spanish Division 1 [SFL],Betis,Valencia,True,10.50,2.08,1.66,0.36,0.64,0.10,Low,$
+SUNFB2179,2023-06-04,03:00:00,French Division 1 [FFL],AC Ajaccio,Marseille,True,8.50,1.67,2.07,0.47,0.53,0.09,Low,
+SUNFB2175,2023-06-04,03:00:00,French Division 1 [FFL],Paris Saint Germain,Clermont,True,8.50,1.54,2.30,0.68,0.32,0.09,High,
+MONFB2209,2023-06-05,00:30:00,Spanish Division 1 [SFL],Osasuna,Girona,True,8.50,1.83,1.87,0.43,0.57,0.09,Low,
+SUNFB2225,2023-06-04,03:00:00,Italian Division 1 [ISA],Empoli,Lazio,True,9.50,1.95,1.75,0.55,0.45,0.08,High,
+SUNFB2181,2023-06-04,03:00:00,French Division 1 [FFL],Monaco,Toulouse,True,8.50,1.74,1.97,0.60,0.40,0.06,High,
+MONFB2226,2023-06-05,00:30:00,Italian Division 1 [ISA],Napoli,Sampdoria,True,9.50,1.85,1.85,0.56,0.44,0.04,High,
+MONFB2232,2023-06-05,03:00:00,Italian Division 1 [ISA],Udinese,Juventus,True,9.50,1.80,1.90,0.57,0.43,0.03,High,
+MONFB2216,2023-06-05,03:00:00,Spanish Division 1 [SFL],Celta Vigo,Barcelona,True,8.50,1.78,1.92,0.46,0.54,0.03,Low,
+SUNFB2176,2023-06-04,03:00:00,French Division 1 [FFL],Nice,Lyon,True,8.50,1.71,2.01,0.60,0.40,0.02,High,
+MONFB2214,2023-06-05,00:30:00,Spanish Division 1 [SFL],Real Madrid,Bilbao,True,9.50,1.77,1.93,0.47,0.53,0.02,Low,
+MONFB2231,2023-06-05,03:00:00,Italian Division 1 [ISA],Atalanta,Monza,True,9.50,1.93,1.77,0.52,0.48,0.01,High,
+SUNFB2224,2023-06-04,03:00:00,Italian Division 1 [ISA],Cremonese,Salernitana,True,9.50,1.86,1.84,0.51,0.49,,,
+MONFB2230,2023-06-05,03:00:00,Italian Division 1 [ISA],Roma,Spezia,True,9.50,1.78,1.92,0.51,0.49,,,
+SUNFB2180,2023-06-04,03:00:00,French Division 1 [FFL],Brest,Rennes,True,8.50,1.61,2.17,0.57,0.43,,,
+SUNFB2182,2023-06-04,03:00:00,French Division 1 [FFL],Lorient,Strasbourg,True,8.50,1.67,2.07,0.58,0.42,,,
+SUNFB2177,2023-06-04,03:00:00,French Division 1 [FFL],Nantes,Angers SCO,True,9.50,1.72,2.00,0.51,0.49,,,
+SUNFB2174,2023-06-04,03:00:00,French Division 1 [FFL],Reims,Montpellier,True,8.50,1.61,2.17,0.59,0.41,,,
+SUNFB2173,2023-06-04,03:00:00,French Division 1 [FFL],Troyes,Lille,True,10.50,2.25,1.57,0.40,0.60,,,
+MONFB2217,2023-06-05,00:30:00,Spanish Division 1 [SFL],Real Sociedad,Sevilla,True,9.50,2.13,1.63,0.45,0.55,,,
+MONFB2213,2023-06-05,00:30:00,Spanish Division 1 [SFL],Villarreal,Atletico Madrid,True,10.50,2.20,1.59,0.41,0.59,,,
+MONFB2211,2023-06-05,03:00:00,Spanish Division 1 [SFL],CF Elche,Cadiz,True,9.50,1.95,1.75,0.46,0.54,,,
+MONFB2210,2023-06-05,03:00:00,Spanish Division 1 [SFL],Espanyol,Almeria,True,9.50,1.75,1.95,0.53,0.47,,,
+TUEFB2295,2023-06-06,02:45:00,German Division 1 [GSL],Hamburg,Stuttgart,True,9.50,1.75,1.95,0.50,0.50,,,

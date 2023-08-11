@@ -10,5 +10,5 @@ archive/*
 models/*
 data/json
 data/data.csv
-output/21
+output/2*
 raw_data/*

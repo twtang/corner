@@ -1,0 +1,9 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+MONFB5406,2023-09-11,00:30:00,Spanish Division 2 [SF2],Cartagena,Zaragoza,True,9.50,1.90,1.80,0.58,0.42,0.11,High,
+SATFB5348,2023-09-09,22:00:00,Eng League 1 [ED2],Stevenage,Carlisle,True,10.50,1.97,1.74,0.55,0.45,0.08,High,
+SUNFB5408,2023-09-10,22:15:00,Spanish Division 2 [SF2],Santander,Amorebieta,True,9.50,2.05,1.68,0.52,0.48,0.07,High,
+SUNFB5405,2023-09-10,00:30:00,Spanish Division 2 [SF2],Oviedo,Gijon,True,9.50,2.10,1.65,0.39,0.61,0.01,Low,
+SATFB5347,2023-09-09,22:00:00,Eng League 1 [ED2],Exeter City,Leyton Orient,True,10.50,2.04,1.69,0.46,0.54,,,
+SATFB5407,2023-09-09,22:15:00,Spanish Division 2 [SF2],Burgos,Eibar,True,9.50,2.00,1.72,0.47,0.53,,,
+SUNFB5410,2023-09-10,03:00:00,Spanish Division 2 [SF2],Leganes,Huesca,True,9.50,2.15,1.62,0.40,0.60,,,
+MONFB5403,2023-09-11,03:00:00,Spanish Division 2 [SF2],Valladolid,CF Elche,True,9.50,1.86,1.84,0.52,0.48,,,

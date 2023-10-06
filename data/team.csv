@@ -9,6 +9,7 @@ D,Dortmund,Dortmund
 D,Dresden,Dresden
 D,Duisburg,Duisburg
 D,Ein Frankfurt,Frankfurt
+D,Elversberg,Elversberg
 D,Erzgebirge Aue,Aue
 D,FC Koln,Cologne
 D,Fortuna Dusseldorf,Dusseldorf
@@ -156,6 +157,7 @@ F,Caen,Caen
 F,Chambly,Chambly
 F,Chateauroux,Chateauroux
 F,Clermont,Clermont
+F,Concarneau,Concarneau
 F,Dijon,Dijon
 F,Dunkerque,Dunkerque
 F,Grenoble,Grenoble Foot
@@ -263,8 +265,10 @@ SP,Celta,Celta Vigo
 SP,Cordoba,Cordoba
 SP,Eibar,Eibar
 SP,Elche,CF Elche
+SP,Eldense,CD Eldense
 SP,Espanol,Espanyol
 SP,Extremadura UD,Extremadura UD
+SP,Ferrol,Racing de Ferrol
 SP,Fuenlabrada,Fuenlabrada
 SP,Getafe,Getafe
 SP,Gimnastic,Gimnastic de Tarragona

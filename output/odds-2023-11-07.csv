@@ -1,0 +1,6 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+THUFB8130,2023-11-09,01:45:00,UE Champions [UCL],Napoli,Union Berlin,True,10.50,2.02,1.70,0.35,0.65,0.15,Low,$
+WEDFB8106,2023-11-08,01:45:00,UE Champions [UCL],Dortmund,Newcastle,True,10.50,1.86,1.84,0.39,0.61,0.15,Low,
+FRIFB8162,2023-11-10,01:45:00,UE Cup [UEC],Toulouse,Liverpool,True,9.50,1.81,1.89,0.61,0.39,0.14,High,
+WEDFB8109,2023-11-08,04:00:00,UE Champions [UCL],AC Milan,Paris Saint Germain,True,10.50,2.17,1.61,0.40,0.60,,,
+THUFB8127,2023-11-09,04:00:00,UE Champions [UCL],Arsenal,Sevilla,True,9.50,1.72,2.00,0.56,0.44,,,

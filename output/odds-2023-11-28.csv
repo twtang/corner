@@ -1,0 +1,8 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+THUFB8932,2023-11-30,04:00:00,Spanish Division 1 [SFL],Mallorca,Cadiz,True,9.50,2.01,1.71,0.37,0.63,0.11,Low,
+WEDFB8902,2023-11-29,04:00:00,UE Champions [UCL],Manchester City,RB Leipzig,True,10.50,2.25,1.57,0.35,0.65,0.04,Low,
+THUFB8931,2023-11-30,04:00:00,UE Champions [UCL],Arsenal,Lens,True,10.50,2.15,1.62,0.47,0.53,0.02,High,
+WEDFB8900,2023-11-29,04:00:00,UE Champions [UCL],Paris Saint Germain,Newcastle,True,10.50,2.05,1.68,0.43,0.57,,,
+WEDFB8903,2023-11-29,04:00:00,UE Champions [UCL],AC Milan,Dortmund,True,10.50,2.08,1.66,0.43,0.57,,,
+THUFB8924,2023-11-30,04:00:00,UE Champions [UCL],Real Madrid,Napoli,True,10.50,1.95,1.75,0.47,0.53,,,
+THUFB8935,2023-11-30,02:00:00,French Division 1 [FFL],Montpellier,Clermont,True,9.50,2.15,1.62,0.46,0.54,,,

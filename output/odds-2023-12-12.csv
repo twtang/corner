@@ -1,0 +1,11 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+WEDFB9545,2023-12-13,04:00:00,UE Champions [UCL],Inter Milan,Real Sociedad,True,10.50,2.22,1.58,0.31,0.69,0.17,Low,$
+FRIFB9584,2023-12-15,01:45:00,UE Cup [UEC],Rennes,Villarreal,True,9.50,1.90,1.80,0.38,0.62,0.14,Low,
+WEDFB9548,2023-12-13,04:00:00,UE Champions [UCL],Union Berlin,Real Madrid,True,10.50,2.12,1.64,0.36,0.64,0.08,Low,
+FRIFB9590,2023-12-15,04:00:00,UE Cup [UEC],West Ham,Freiburg,True,9.50,1.87,1.83,0.44,0.56,0.03,Low,
+THUFB9562,2023-12-14,04:00:00,UE Champions [UCL],Dortmund,Paris Saint Germain,True,10.50,1.94,1.76,0.42,0.58,0.03,Low,
+THUFB9563,2023-12-14,04:00:00,UE Champions [UCL],Atletico Madrid,Lazio,True,9.50,1.83,1.87,0.46,0.54,0.01,Low,
+WEDFB9542,2023-12-13,01:45:00,UE Champions [UCL],Lens,Sevilla,True,9.50,1.95,1.75,0.47,0.53,,,
+WEDFB9546,2023-12-13,04:00:00,UE Champions [UCL],Manchester Utd,Bayern Munich,True,10.50,2.05,1.68,0.45,0.55,,,
+THUFB9559,2023-12-14,04:00:00,UE Champions [UCL],Newcastle,AC Milan,True,10.50,2.00,1.72,0.44,0.56,,,
+FRIFB9594,2023-12-15,04:00:00,UE Cup [UEC],Brighton,Marseille,True,10.50,2.15,1.62,0.40,0.60,,,

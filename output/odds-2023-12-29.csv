@@ -1,0 +1,27 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+SUNFB0059,2023-12-31,22:00:00,Eng Premier [EPL],Tottenham,Bournemouth,True,11.50,1.93,1.77,0.32,0.68,0.27,Low,$$
+SATFB0030,2023-12-30,01:30:00,Italian Division 1 [ISA],Fiorentina,AC Torino,True,9.50,2.08,1.66,0.30,0.70,0.24,Low,$
+SATFB0032,2023-12-30,01:30:00,Italian Division 1 [ISA],Napoli,Monza,True,10.50,2.04,1.69,0.32,0.68,0.21,Low,$
+SATFB0012,2023-12-30,03:00:00,Eng League 1 [ED2],Wigan,Carlisle,True,9.50,1.75,1.95,0.39,0.61,0.20,Low,$
+SATFB9998,2023-12-30,03:45:00,Eng Championship [ED1],Coventry,Swansea,True,10.50,1.90,1.80,0.37,0.63,0.18,Low,$
+SATFB0031,2023-12-30,03:45:00,Italian Division 1 [ISA],Genoa,Inter Milan,True,9.50,1.86,1.84,0.38,0.62,0.18,Low,$
+SATFB0052,2023-12-30,22:00:00,Italian Division 1 [ISA],Udinese,Bologna,True,9.50,2.00,1.72,0.57,0.43,0.15,High,
+SATFB0033,2023-12-30,03:45:00,Italian Division 1 [ISA],Lazio,Frosinone,True,9.50,1.85,1.85,0.40,0.60,0.14,Low,
+SATFB9997,2023-12-30,03:45:00,Eng Championship [ED1],Cardiff,Leicester,True,10.50,1.98,1.73,0.38,0.62,0.11,Low,
+SATFB0037,2023-12-30,23:00:00,Eng Premier [EPL],Crystal Palace,Brentford,True,9.50,1.85,1.85,0.42,0.58,0.10,Low,
+SATFB9994,2023-12-30,04:15:00,Eng Championship [ED1],West Bromwich,Leeds,True,10.50,2.01,1.71,0.54,0.46,0.09,High,
+SUNFB0036,2023-12-31,01:30:00,Eng Premier [EPL],Nottingham Forest,Manchester Utd,True,10.50,1.88,1.82,0.41,0.59,0.08,Low,
+SATFB9995,2023-12-30,02:00:00,Eng Championship [ED1],Southampton,Plymouth,True,11.50,2.05,1.68,0.38,0.62,0.07,Low,
+WEDFB0061,2024-01-03,03:30:00,Eng Premier [EPL],West Ham,Brighton,True,10.50,1.98,1.73,0.41,0.59,0.04,Low,
+SATFB0056,2023-12-30,22:00:00,Italian Division 1 [ISA],Cagliari,Empoli,True,10.50,2.20,1.59,0.47,0.53,0.02,High,
+SATFB0038,2023-12-30,23:00:00,Eng Premier [EPL],Wolves,Everton,True,10.50,1.88,1.82,0.44,0.56,0.02,Low,
+SUNFB0051,2023-12-31,01:00:00,Italian Division 1 [ISA],AC Milan,Sassuolo,True,10.50,2.04,1.69,0.50,0.50,0.01,High,
+SATFB0049,2023-12-30,19:30:00,Italian Division 1 [ISA],Atalanta,Lecce,True,9.50,1.85,1.85,0.46,0.54,,,
+SUNFB0048,2023-12-31,01:00:00,Italian Division 1 [ISA],Verona,Salernitana,True,9.50,1.95,1.75,0.44,0.56,,,
+SUNFB0050,2023-12-31,03:45:00,Italian Division 1 [ISA],Juventus,Roma,True,9.50,1.95,1.75,0.49,0.51,,,
+SATFB0004,2023-12-30,03:45:00,Eng Championship [ED1],Ipswich,QPR,True,10.50,2.04,1.69,0.44,0.56,,,
+SATFB0041,2023-12-30,20:30:00,Eng Premier [EPL],Luton,Chelsea,True,10.50,1.83,1.87,0.54,0.46,,,
+SATFB0042,2023-12-30,23:00:00,Eng Premier [EPL],Manchester City,Sheff Utd,True,11.50,2.22,1.58,0.41,0.59,,,
+SATFB0040,2023-12-30,23:00:00,Eng Premier [EPL],Aston Villa,Burnley,True,10.50,1.88,1.82,0.51,0.49,,,
+SUNFB0060,2023-12-31,22:00:00,Eng Premier [EPL],Fulham,Arsenal,True,10.50,2.10,1.65,0.47,0.53,,,
+TUEFB0039,2024-01-02,04:00:00,Eng Premier [EPL],Liverpool,Newcastle,True,11.50,2.22,1.58,0.39,0.61,,,

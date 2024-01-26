@@ -1,0 +1,67 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+SUNFB0834,2024-01-28,03:30:00,German Division 2 [GD2],Dusseldorf,St. Pauli,True,10.50,2.10,1.65,0.28,0.72,0.29,Low,$$
+SATFB0792,2024-01-27,03:45:00,FA Cup [EFA],Sheff Wednesday,Coventry,True,11.50,2.17,1.61,0.27,0.73,0.29,Low,$$
+MONFB0826,2024-01-29,00:05:00,French Division 1 [FFL],Toulouse,Lens,True,9.50,2.13,1.63,0.62,0.38,0.29,High,$$
+SATFB0861,2024-01-27,23:00:00,FA Cup [EFA],Leicester,Birmingham,True,10.50,1.97,1.74,0.32,0.68,0.26,Low,$$
+SATFB0788,2024-01-27,04:00:00,FA Cup [EFA],Tottenham,Manchester City,True,11.50,2.07,1.67,0.30,0.70,0.26,Low,$$
+MONFB0840,2024-01-29,03:45:00,Italian Division 1 [ISA],Fiorentina,Inter Milan,True,9.50,1.90,1.80,0.35,0.65,0.22,Low,$
+MONFB0851,2024-01-29,00:30:00,German Division 1 [GSL],Dortmund,Bochum,True,10.50,2.05,1.68,0.32,0.68,0.21,Low,$
+SUNFB0820,2024-01-28,22:00:00,French Division 1 [FFL],Lorient,Le Havre,True,9.50,2.15,1.62,0.31,0.69,0.20,Low,$
+SUNFB0945,2024-01-28,01:30:00,Spanish Division 2 [SF2],Oviedo,Leganes,True,9.50,2.25,1.57,0.29,0.71,0.19,Low,$
+SUNFB0862,2024-01-28,19:45:00,FA Cup [EFA],West Bromwich,Wolves,True,10.50,2.01,1.71,0.59,0.41,0.19,High,$
+SUNFB0842,2024-01-28,22:00:00,Italian Division 1 [ISA],Monza,Sassuolo,True,9.50,1.77,1.93,0.63,0.37,0.15,High,$
+SATFB0815,2024-01-27,22:30:00,German Division 1 [GSL],Werder Bremen,Freiburg,True,8.50,1.73,1.98,0.43,0.57,0.13,Low,
+MONFB0867,2024-01-29,00:30:00,FA Cup [EFA],Newport County,Manchester Utd,True,11.50,2.17,1.61,0.33,0.67,0.12,Low,
+SATFB0781,2024-01-27,01:30:00,German Division 2 [GD2],Hannover,Nurnberg,True,10.50,1.86,1.84,0.41,0.59,0.10,Low,
+SATFB0816,2024-01-27,22:30:00,German Division 1 [GSL],Hoffenheim,Heidenheim,True,10.50,2.13,1.63,0.52,0.48,0.10,High,
+SUNFB0837,2024-01-28,03:45:00,Italian Division 1 [ISA],AC Milan,Bologna,True,9.50,2.02,1.70,0.54,0.46,0.09,High,
+SATFB0829,2024-01-27,20:00:00,German Division 2 [GD2],Rostock,Elversberg,True,10.50,2.00,1.72,0.54,0.46,0.09,High,
+MONFB0942,2024-01-29,01:30:00,Spanish Division 2 [SF2],Burgos,Albacete,True,9.50,2.20,1.59,0.50,0.50,0.08,High,
+SATFB0780,2024-01-27,03:30:00,German Division 1 [GSL],Frankfurt,Mainz,True,9.50,2.04,1.69,0.53,0.47,0.08,High,
+SUNFB0854,2024-01-28,03:00:00,FA Cup [EFA],Fulham,Newcastle,True,10.50,2.15,1.62,0.50,0.50,0.07,High,
+SUNFB0844,2024-01-28,21:00:00,Spanish Division 1 [SFL],Celta Vigo,Girona,True,9.50,1.86,1.84,0.43,0.57,0.07,Low,
+MONFB0889,2024-01-29,04:00:00,Spanish Division 1 [SFL],Atletico Madrid,Valencia,True,9.50,2.05,1.68,0.52,0.48,0.07,High,
+SATFB0943,2024-01-27,23:15:00,Spanish Division 2 [SF2],Alcorcon,Zaragoza,True,9.50,2.20,1.59,0.49,0.51,0.06,High,
+SATFB0853,2024-01-27,23:00:00,FA Cup [EFA],Leeds,Plymouth,True,11.50,2.17,1.61,0.49,0.51,0.06,High,
+SUNFB0828,2024-01-28,20:30:00,German Division 2 [GD2],Braunschweig,Magdeburg,True,10.50,2.05,1.68,0.52,0.48,0.06,High,
+SUNFB0824,2024-01-28,20:00:00,French Division 1 [FFL],Montpellier,Lille,True,9.50,1.93,1.77,0.54,0.46,0.05,High,
+SATFB0779,2024-01-27,04:00:00,French Division 1 [FFL],Lyon,Rennes,True,9.50,2.02,1.70,0.52,0.48,0.05,High,
+SATFB0797,2024-01-27,03:45:00,Italian Division 1 [ISA],Cagliari,AC Torino,True,9.50,2.13,1.63,0.50,0.50,0.05,High,
+SATFB0835,2024-01-27,22:00:00,Italian Division 1 [ISA],Atalanta,Udinese,True,10.50,2.04,1.69,0.39,0.61,0.04,Low,
+SUNFB0841,2024-01-28,19:30:00,Italian Division 1 [ISA],Genoa,Lecce,True,9.50,2.13,1.63,0.37,0.63,0.04,Low,
+SUNFB0843,2024-01-28,22:00:00,Italian Division 1 [ISA],Verona,Frosinone,True,9.50,1.93,1.77,0.42,0.58,0.03,Low,
+SUNFB0830,2024-01-28,20:30:00,German Division 2 [GD2],Hamburg,Karlsruher,True,10.50,1.77,1.93,0.47,0.53,0.03,Low,
+SUNFB0849,2024-01-28,22:30:00,German Division 1 [GSL],Union Berlin,Darmstadt,True,9.50,2.12,1.64,0.49,0.51,0.03,High,
+SATFB0784,2024-01-27,04:00:00,Spanish Division 1 [SFL],Almeria,Alaves,True,9.50,2.00,1.72,0.51,0.49,0.02,High,
+SATFB0855,2024-01-27,23:00:00,FA Cup [EFA],Sheff Utd,Brighton,True,9.50,1.87,1.83,0.54,0.46,0.02,High,
+SUNFB0832,2024-01-28,20:30:00,German Division 2 [GD2],Greuther Furth,Holstein Kiel,True,10.50,1.85,1.85,0.45,0.55,0.02,Low,
+TUEFB0948,2024-01-30,03:30:00,Spanish Division 2 [SF2],Valladolid,Santander,True,9.50,1.84,1.86,0.55,0.45,0.01,High,
+SUNFB0870,2024-01-28,22:00:00,FA Cup [EFA],Watford,Southampton,True,11.50,2.19,1.60,0.37,0.63,0.01,Low,
+SATFB0848,2024-01-27,23:15:00,Spanish Division 1 [SFL],Las Palmas,Real Madrid,True,9.50,1.83,1.87,0.46,0.54,0.01,Low,
+SUNFB0847,2024-01-28,23:15:00,Spanish Division 1 [SFL],Cadiz,Bilbao,True,9.50,2.13,1.63,0.47,0.53,0.01,High,
+SATFB0782,2024-01-27,01:30:00,German Division 2 [GD2],Kaiserslautern,Schalke 04,True,11.50,2.22,1.58,0.39,0.61,,,
+SATFB0831,2024-01-27,20:00:00,German Division 2 [GD2],Osnabruck,Paderborn,True,10.50,1.95,1.75,0.48,0.52,,,
+SATFB0833,2024-01-27,20:00:00,German Division 2 [GD2],Wehen,Hertha Berlin,True,10.50,1.87,1.83,0.50,0.50,,,
+SATFB0817,2024-01-27,22:30:00,German Division 1 [GSL],Augsburg,Bayern Munich,True,10.50,2.10,1.65,0.40,0.60,,,
+SATFB0819,2024-01-27,22:30:00,German Division 1 [GSL],Stuttgart,RB Leipzig,True,9.50,1.82,1.88,0.47,0.53,,,
+SATFB0818,2024-01-27,22:30:00,German Division 1 [GSL],Wolfsburg,Cologne,True,9.50,1.83,1.87,0.54,0.46,,,
+SUNFB0850,2024-01-28,01:30:00,German Division 1 [GSL],Leverkusen,Monchengladbach,True,10.50,1.98,1.73,0.45,0.55,,,
+SUNFB0836,2024-01-28,01:00:00,Italian Division 1 [ISA],Juventus,Empoli,True,9.50,1.77,1.93,0.56,0.44,,,
+MONFB0839,2024-01-29,01:00:00,Italian Division 1 [ISA],Lazio,Napoli,True,9.50,2.19,1.60,0.44,0.56,,,
+TUEFB0838,2024-01-30,03:45:00,Italian Division 1 [ISA],Salernitana,Roma,True,9.50,2.15,1.62,0.42,0.58,,,
+SATFB0791,2024-01-27,03:45:00,FA Cup [EFA],Chelsea,Aston Villa,True,10.50,1.95,1.75,0.46,0.54,,,
+SATFB0790,2024-01-27,03:45:00,FA Cup [EFA],Bristol City,Nottingham Forest,True,11.50,2.22,1.58,0.39,0.61,,,
+SATFB0869,2024-01-27,23:00:00,FA Cup [EFA],Everton,Luton,True,10.50,1.90,1.80,0.48,0.52,,,
+SUNFB0868,2024-01-28,22:30:00,FA Cup [EFA],Liverpool,Norwich,True,11.50,1.98,1.73,0.46,0.54,,,
+SATFB0845,2024-01-27,21:00:00,Spanish Division 1 [SFL],Real Sociedad,Vallecano,True,8.50,1.78,1.92,0.49,0.51,,,
+SUNFB0872,2024-01-28,01:30:00,Spanish Division 1 [SFL],Barcelona,Villarreal,True,10.50,2.13,1.63,0.42,0.58,,,
+SUNFB0852,2024-01-28,04:00:00,Spanish Division 1 [SFL],Mallorca,Betis,True,10.50,2.20,1.59,0.41,0.59,,,
+MONFB0888,2024-01-29,01:30:00,Spanish Division 1 [SFL],Sevilla,Osasuna,True,9.50,1.90,1.80,0.48,0.52,,,
+TUEFB0846,2024-01-30,04:00:00,Spanish Division 1 [SFL],Getafe,CF Granada,True,8.50,1.91,1.79,0.45,0.55,,,
+SUNFB0822,2024-01-28,00:00:00,French Division 1 [FFL],Nice,Metz,True,9.50,2.15,1.62,0.46,0.54,,,
+SUNFB0823,2024-01-28,04:00:00,French Division 1 [FFL],Marseille,Monaco,True,9.50,1.88,1.82,0.53,0.47,,,
+SUNFB0825,2024-01-28,22:00:00,French Division 1 [FFL],Reims,Nantes,True,9.50,1.79,1.91,0.54,0.46,,,
+SUNFB0821,2024-01-28,22:00:00,French Division 1 [FFL],Clermont,Strasbourg,True,9.50,2.30,1.54,0.42,0.58,,,
+MONFB0827,2024-01-29,03:45:00,French Division 1 [FFL],Paris Saint Germain,Brest,True,9.50,1.85,1.85,0.49,0.51,,,
+SUNFB0946,2024-01-28,21:00:00,Spanish Division 2 [SF2],CD Eldense,Espanyol,True,9.50,1.81,1.89,0.51,0.49,,,
+SUNFB0886,2024-01-28,21:30:00,Eng Championship [ED1],QPR,Huddersfield,True,10.50,1.94,1.76,0.45,0.55,,,

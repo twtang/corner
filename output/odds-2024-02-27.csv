@@ -1,0 +1,8 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+THUFB2177,2024-02-29,03:45:00,FA Cup [EFA],Nottingham Forest,Manchester Utd,True,10.50,1.83,1.87,0.41,0.59,0.12,Low,
+WEDFB2167,2024-02-28,03:30:00,FA Cup [EFA],Bournemouth,Leicester,True,11.50,2.25,1.57,0.34,0.66,0.06,Low,
+WEDFB2165,2024-02-28,04:00:00,FA Cup [EFA],Luton,Manchester City,True,11.50,2.20,1.59,0.35,0.65,0.04,Low,
+WEDFB2166,2024-02-28,03:45:00,FA Cup [EFA],Blackburn,Newcastle,True,10.50,2.01,1.71,0.45,0.55,,,
+THUFB2176,2024-02-29,03:30:00,FA Cup [EFA],Chelsea,Leeds,True,10.50,2.08,1.66,0.48,0.52,,,
+THUFB2175,2024-02-29,03:45:00,FA Cup [EFA],Wolves,Brighton,True,10.50,2.15,1.62,0.39,0.61,,,
+THUFB2178,2024-02-29,04:00:00,FA Cup [EFA],Liverpool,Southampton,True,11.50,2.02,1.70,0.41,0.59,,,

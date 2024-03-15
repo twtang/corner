@@ -1,0 +1,9 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+WEDFB3158,2024-03-13,03:45:00,Eng League 1 [ED2],Derby,Reading,True,10.50,1.86,1.84,0.37,0.63,0.19,Low,$
+THUFB3151,2024-03-14,03:30:00,Eng Premier [EPL],Bournemouth,Luton,True,11.50,1.90,1.80,0.39,0.61,0.12,Low,
+WEDFB3152,2024-03-13,04:00:00,UE Champions [UCL],Barcelona,Napoli,True,9.50,1.79,1.91,0.44,0.56,0.08,Low,
+THUFB3149,2024-03-14,04:00:00,UE Champions [UCL],Atletico Madrid,Inter Milan,True,9.50,1.90,1.80,0.55,0.45,0.06,High,
+WEDFB3182,2024-03-13,03:45:00,Eng Championship [ED1],Birmingham,Middlesbrough,True,10.50,2.02,1.70,0.52,0.48,0.05,High,
+FRIFB3176,2024-03-15,01:45:00,UE Cup [UEC],Villarreal,Marseille,True,9.50,1.90,1.80,0.52,0.48,,,
+FRIFB3175,2024-03-15,01:45:00,UE Cup [UEC],West Ham,Freiburg,True,9.50,2.01,1.71,0.46,0.54,,,
+FRIFB3172,2024-03-15,04:00:00,UE Cup [UEC],Brighton,Roma,True,9.50,1.88,1.82,0.50,0.50,,,

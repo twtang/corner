@@ -1,0 +1,13 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+SATFB3590,2024-03-23,23:00:00,Eng League 1 [ED2],Burton Albion,Port Vale,True,9.50,1.86,1.84,0.65,0.35,0.24,High,$
+SUNFB3542,2024-03-24,23:15:00,Spanish Division 2 [SF2],Valladolid,Eibar,True,9.50,2.02,1.70,0.60,0.40,0.21,High,$
+SUNFB3545,2024-03-24,04:00:00,Spanish Division 2 [SF2],Espanyol,Tenerife,True,9.50,1.88,1.82,0.40,0.60,0.12,Low,
+SATFB3591,2024-03-23,23:00:00,Eng League 1 [ED2],Carlisle,Stevenage,True,9.50,1.95,1.75,0.56,0.44,0.09,High,
+MONFB3551,2024-03-25,01:30:00,Spanish Division 2 [SF2],Mirandes,Zaragoza,True,8.50,1.80,1.90,0.58,0.42,0.05,High,
+MONFB3544,2024-03-25,04:00:00,Spanish Division 2 [SF2],Santander,CD Eldense,True,9.50,1.85,1.85,0.44,0.56,0.03,Low,
+TUEFB3550,2024-03-26,03:30:00,Spanish Division 2 [SF2],Albacete,Racing de Ferrol,True,8.50,1.87,1.83,0.44,0.56,0.02,Low,
+SUNFB3549,2024-03-24,21:00:00,Spanish Division 2 [SF2],Amorebieta,Gijon,True,9.50,1.93,1.77,0.43,0.57,0.02,Low,
+SATFB3592,2024-03-23,23:00:00,Eng League 1 [ED2],Northampton,Derby,True,9.50,2.10,1.65,0.48,0.52,0.00,High,
+SATFB3547,2024-03-23,23:15:00,Spanish Division 2 [SF2],Alcorcon,Oviedo,True,9.50,2.02,1.70,0.41,0.59,,,
+SUNFB3543,2024-03-24,23:15:00,Spanish Division 2 [SF2],Huesca,Burgos,True,9.50,2.08,1.66,0.41,0.59,,,
+MONFB3548,2024-03-25,01:30:00,Spanish Division 2 [SF2],Levante,CF Elche,True,9.50,1.81,1.89,0.53,0.47,,,

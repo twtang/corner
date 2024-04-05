@@ -1,0 +1,12 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+WEDFB4008,2024-04-03,02:45:00,Eng Premier [EPL],Bournemouth,Crystal Palace,True,11.50,1.97,1.74,0.35,0.65,0.19,Low,$
+WEDFB4006,2024-04-03,03:15:00,Eng Premier [EPL],West Ham,Tottenham,True,11.50,2.07,1.67,0.33,0.67,0.18,Low,$
+THUFB4023,2024-04-04,02:30:00,Eng Premier [EPL],Brentford,Brighton,True,10.50,2.12,1.64,0.33,0.67,0.16,Low,$
+FRIFB4076,2024-04-05,02:00:00,Spanish Division 1 [SFL],CF Granada,Valencia,True,8.50,1.86,1.84,0.59,0.41,0.11,High,
+THUFB4011,2024-04-04,03:15:00,Eng Premier [EPL],Manchester City,Aston Villa,True,11.50,1.98,1.73,0.40,0.60,0.05,Low,
+WEDFB4007,2024-04-03,02:30:00,Eng Premier [EPL],Nottingham Forest,Fulham,True,10.50,2.01,1.71,0.40,0.60,0.03,Low,
+FRIFB4012,2024-04-05,03:15:00,Eng Premier [EPL],Chelsea,Manchester Utd,True,11.50,2.07,1.67,0.40,0.60,0.00,Low,
+WEDFB4005,2024-04-03,02:30:00,Eng Premier [EPL],Newcastle,Everton,True,10.50,1.87,1.83,0.46,0.54,,,
+WEDFB4009,2024-04-03,02:45:00,Eng Premier [EPL],Burnley,Wolves,True,10.50,2.01,1.71,0.44,0.56,,,
+THUFB4013,2024-04-04,02:30:00,Eng Premier [EPL],Arsenal,Luton,True,11.50,1.93,1.77,0.47,0.53,,,
+FRIFB4014,2024-04-05,02:30:00,Eng Premier [EPL],Liverpool,Sheff Utd,True,11.50,1.85,1.85,0.52,0.48,,,

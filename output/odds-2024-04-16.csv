@@ -1,0 +1,10 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+FRIFB4769,2024-04-19,03:00:00,UE Cup [UEC],West Ham,Leverkusen,True,10.50,2.33,1.53,0.29,0.71,0.15,Low,$
+WEDFB4752,2024-04-17,03:00:00,UE Champions [UCL],Barcelona,Paris Saint Germain,True,10.50,2.05,1.68,0.35,0.65,0.14,Low,
+WEDFB4751,2024-04-17,03:00:00,UE Champions [UCL],Dortmund,Atletico Madrid,True,10.50,2.01,1.71,0.38,0.62,0.10,Low,
+FRIFB4808,2024-04-19,03:00:00,UE Cup [UEC],Atalanta,Liverpool,True,10.50,1.92,1.78,0.40,0.60,0.09,Low,
+THUFB4753,2024-04-18,03:00:00,UE Champions [UCL],Manchester City,Real Madrid,True,10.50,2.17,1.61,0.36,0.64,0.04,Low,
+WEDFB4785,2024-04-17,02:45:00,Eng League 1 [ED2],Portsmouth,Barnsley,True,10.50,2.05,1.68,0.42,0.58,,,
+THUFB4754,2024-04-18,03:00:00,UE Champions [UCL],Bayern Munich,Arsenal,True,9.50,1.81,1.89,0.51,0.49,,,
+FRIFB4813,2024-04-19,00:45:00,UE Conference [UEF],Lille,Aston Villa,True,10.50,2.22,1.58,0.41,0.59,,,
+FRIFB4768,2024-04-19,03:00:00,UE Cup [UEC],Roma,AC Milan,True,9.50,1.90,1.80,0.46,0.54,,,

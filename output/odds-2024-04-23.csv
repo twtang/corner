@@ -1,0 +1,11 @@
+MatchDay,Date,Time,LeagueJC,HomeTeamJC,AwayTeamJC,MAINLINE,CHL_LINE,CHL_H,CHL_L,prob_hi,prob_lo,kelly,bet,selected
+THUFB5317,2024-04-25,03:00:00,French Division 1 [FFL],Monaco,Lille,True,9.50,1.85,1.85,0.39,0.61,0.15,Low,$
+THUFB5345,2024-04-25,03:00:00,Eng Premier [EPL],Manchester Utd,Sheff Utd,True,12.50,2.05,1.68,0.35,0.65,0.14,Low,
+WEDFB5357,2024-04-24,02:45:00,Eng League 1 [ED2],Cheltenham,Peterborough,True,10.50,2.07,1.67,0.36,0.64,0.10,Low,
+THUFB5343,2024-04-25,03:00:00,Eng Premier [EPL],Crystal Palace,Newcastle,True,10.50,1.95,1.75,0.39,0.61,0.09,Low,
+THUFB5344,2024-04-25,02:45:00,Eng Premier [EPL],Wolves,Bournemouth,True,10.50,1.83,1.87,0.44,0.56,0.06,Low,
+THUFB5321,2024-04-25,03:00:00,French Division 1 [FFL],Marseille,Nice,True,9.50,1.85,1.85,0.44,0.56,0.05,Low,
+THUFB5318,2024-04-25,01:00:00,French Division 1 [FFL],Lorient,Paris Saint Germain,True,9.50,1.85,1.85,0.45,0.55,0.03,Low,
+WEDFB5354,2024-04-24,03:00:00,Eng Championship [ED1],Leicester,Southampton,True,10.50,1.90,1.80,0.44,0.56,0.02,Low,
+THUFB5346,2024-04-25,03:00:00,Eng Premier [EPL],Everton,Liverpool,True,11.50,2.20,1.59,0.38,0.62,,,
+FRIFB5342,2024-04-26,03:00:00,Eng Premier [EPL],Brighton,Manchester City,True,10.50,1.94,1.76,0.45,0.55,,,
